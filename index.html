@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+	<div class="wrapper">
+		<form id="myForm" class="custom-form">
+			<h1> Your data</h1>
+		  <input type="text" id="name" name="name" placeholder="Your name">
+		  <input type="email" id="email" name="email" placeholder="Your email">
+		  <input type="number" id="phone" name="phone" placeholder="Your phone">
+		  <button type="submit">Send</button>
+		</form>
+
+		<div id="error-message"></div>
+		<div id="show-info"></div>
+
+		<button type="text" onclick="showInfo()">Show my info</button>
+		<button type="text" onclick="reloadPage()">Reload page</button>
+	</div>
+	
+	<script src="js/script.js"></script> 
+</body>
+</html>
